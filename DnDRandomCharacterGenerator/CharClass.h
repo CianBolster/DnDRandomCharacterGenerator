@@ -11,8 +11,9 @@ private:
 
 
 public:
-	CharClass(int classType, bool average);
+	CharClass(int classType, bool useAverage);
 	~CharClass();
 	string getClassName();
+	int calculateHealth(bool useAverage);
 };
 

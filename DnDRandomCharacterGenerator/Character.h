@@ -1,3 +1,8 @@
+/*
+Will hold all the info for the created character but calculations and random assignments split out into 
+different classes
+*/
+
 #pragma once
 #include "CharClass.h"
 #include "CharRace.h"
@@ -28,7 +33,6 @@ public:
 	string getClass();
 	int getHealth();
 	string getRace();
-	void calculateHealth(bool useAverage);
 
 };
 
