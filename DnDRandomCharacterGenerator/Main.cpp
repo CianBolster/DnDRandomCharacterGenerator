@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
 
-	Character c{ 3,2 };
+	Character c{ 3,2,1 };
 	cout << c.getClass() << endl;
 	cout << c.getLevel() << endl;
 	system("pause");
